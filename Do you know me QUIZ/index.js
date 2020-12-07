@@ -73,7 +73,7 @@ for (i = 0; i < questions.length; i++)
 }
 console.log(chalk.bgMagenta("Alright, that's enough insight.\nYOUR TOTAL SCORE IS :  " + score + "\n"))
 
-console.log(chalk.yellowBright("\nPrevious Top Scorers:\nAbhishek: 8\nNikita: 6\nKriti: 6\n"))
+console.log(chalk.yellowBright("\nPrevious Top Scorers:\nHarsh: 8\nGeetisha: 6\nArpit: 6\n"))
 
 
 highScores = [8, 7, 6]
