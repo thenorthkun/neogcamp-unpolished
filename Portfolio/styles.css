@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color: red;
+    --primary-color: #7C3AED;
 }
 
 body {
     font-family: 'Montserrat', 
     sans-serif;
+}
+
+
+hr{
+    margin: 2rem 0rem;
 }
 
      
@@ -15,6 +20,7 @@ body {
 .container-fluid {
     padding-left: 3rem;
     padding-right: 1rem;
+    /*or we can use padding : 3rem 1rem */
 }
 .container-center {
     max-width: 800px;
@@ -23,7 +29,24 @@ body {
 
 /* Links */
 
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;  /* top = bottom, left = right
+    ie., 0.5rem = top = bottm && 1rem = left = right*/
+
+}
 .First-link {
-    color : var(--primary-color)
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white
+}
+.Second-link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
 }
 
