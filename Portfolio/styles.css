@@ -3,11 +3,13 @@
 :root {
     --primary-color: #7C3AED;
     --dark-grey : #6B7280; 
+    --off-white : #E5E7EB;
 }
 
 body {
     font-family: 'Montserrat', 
     sans-serif;
+    margin:0px;
 }
 
 
@@ -103,6 +105,7 @@ hr{
 }
 
 .hero .hero-heading{
+    text-align: center;
     color: var(--dark-grey);
     padding-top: 1rem;
 
@@ -111,6 +114,36 @@ hr{
     color: var(--primary-color);
 }
 
-/***  ***/
+/*** Section ***/
 
+.section{
+    padding : 2rem:
+}
 
+.section h1{    /*inside section if there is a heading, it should go to center*/
+    text-align: center;
+}
+
+.off-white{
+    padding-top: 1rem;
+    background-color: var(--off-white);
+}
+
+/*** Footer ***/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{    /*links inside footer should be white*/
+    color: white;
+
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
