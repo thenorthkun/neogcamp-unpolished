@@ -94,6 +94,9 @@ hr{
     color: white;
 }
 
+.navigation .link-active {
+    font-weight: bold;
+
 
 /*** Header ***/
 
