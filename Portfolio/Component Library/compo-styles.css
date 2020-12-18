@@ -17,12 +17,6 @@ hr{
     margin: 2rem 0rem;
 }
 
-
-/*** Spaces ***/
-
-.margin-md{
-    margin: 2rem;
-}
      
 /*** Container ***/
 
@@ -99,7 +93,6 @@ hr{
 
 .hero{
     padding: 2rem;
-    padding-top: 5rem;
     text-align: center;
 }
 
@@ -124,8 +117,7 @@ hr{
 /*** Section ***/
 
 .section{
-    padding : 2rem;
-    text-align: center;
+    padding : 2rem:
 }
 
 .section h1{    /*inside section if there is a heading, it should go to center*/
@@ -133,7 +125,6 @@ hr{
 }
 
 .off-white{
-    text-align: center;
     padding-top: 1rem;
     background-color: var(--off-white);
 }
@@ -151,11 +142,6 @@ hr{
 .footer .link{    /*links inside footer should be white*/
     color: white;
 
-}
-
-.footer .footer-header{
-    font-weight: bold;
-    font-size: large;
 }
 
 .footer ul{
