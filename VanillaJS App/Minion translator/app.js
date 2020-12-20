@@ -19,7 +19,7 @@ var serverURL = "https://api.funtranslations.com/translate/minion.json"
 
 
 function getTranslationURL(input){
-    return serverURL + "?" + "text = " + input
+    return serverURL + "?" + "text=" + input
 }
 
 function errorHandler(error) {
@@ -41,7 +41,7 @@ function clickHandler() {
     })
     .catch(errorHandler)
     
-};
+}
 
 
 
