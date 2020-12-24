@@ -4,44 +4,56 @@ import "./styles.css";
 const movieDB = {
 	Action: [
 		{
-			name: "Angel Has Fallen",
-			rating: 6.4
+			name: "6 Underground",
+			rating: 6.0
+		},
+		{
+			name: "Avengers",
+			rating: 8.4
+		},
+		{
+			name: "Bumblebee",
+			rating: 5.6
 		},
 		{
 			name: "Wonder Woman",
 			rating: 7.4
-		},
-		{
-			name: "Bloodshot",
-			rating: 5.7
 		}
 	],
-	"Sci-Fi": [
+	Romantic:[
 		{
-			name: "The Expanse",
-			rating: 8.5
+			name: "The Spectaculer Now",
+			rating: 7.0
 		},
 		{
-			name: "Westworld",
-			rating: 8.7
+			name: "Love & other drugs",
+			rating: 8.2
 		},
 		{
-			name: "Agents of S.H.I.E.L.D.",
+			name: "The Kissing Booth",
+			rating: 7.2
+		},
+		{
+			name: "You & me",
 			rating: 7.5
 		}
 	],
 	Fantasy: [
 		{
-			name: "His Dark Materials",
+			name: "Harry Potter",
 			rating: 7.9
 		},
 		{
-			name: "Artemis Fowl",
-			rating: 4.2
+			name: "The Witcher",
+			rating: 7.2
 		},
 		{
-			name: "Cursed",
-			rating: 5.8
+			name: "Lord of the rings",
+			rating: 7.2
+		},
+		{
+			name: "Game of Thrones",
+			rating: 8.8
 		}
 	]
 };
@@ -54,10 +66,10 @@ export default function App() {
 	return (
 		<div className="App">
 			<nav>
-				<h1>What to Watch Today</h1>
+				<h1>What to watch next ?</h1>
 			</nav>
 			<div>
-				<h3>Select your Genre and we will recommend you with some good stuff:</h3>
+				<h3>Select your Genre and we will recommend you :</h3>
 				{Object.keys(movieDB).map((genre) => (
 					<button
 						className="genre"
