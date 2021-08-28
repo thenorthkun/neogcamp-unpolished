@@ -123,6 +123,13 @@ for (i=1; i<6;i++){
 }
 console.log(str)
 
+str = ""; //Alernate approach
+for(i=1;i<6;i++){
+  str = str + "*"
+  console.log(str)
+}
+
+
 
 // Q - Use JS data structure - Array & access the array elements & print them one by one
 
