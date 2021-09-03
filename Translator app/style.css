@@ -1,0 +1,21 @@
+body{
+    display: block;
+    
+    text-align: center;
+
+}
+
+#input{
+    width: 50%;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#output{
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+
+}
