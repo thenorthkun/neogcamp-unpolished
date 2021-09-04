@@ -1,6 +1,5 @@
 body{
     display: block;
-    
     text-align: center;
 
 }
@@ -18,4 +17,8 @@ body{
     padding: 1rem;
     border: 1px solid black;
 
+}
+
+#btn-translate{
+    padding: 0.4rem;
 }
