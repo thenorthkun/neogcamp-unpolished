@@ -2,3 +2,17 @@ body{
     text-align: center;
     display: block;
 }
+
+/* #output{
+    height: 10vh;
+    margin: 1rem;
+    border: 1px solid black;
+} */
+
+#output{
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+
+}
