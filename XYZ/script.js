@@ -3,7 +3,11 @@ const quoteTags= document.querySelector('#quote-tag');
 const quoteAuthor= document.querySelector('#quote-author');
 const genQuoteBtn= document.querySelector('#gen-quote-btn');
 
-function randomQuote(){
+function errorHandler(error){
+    alert("an error occured while processing");
+}
+
+var x = function randomQuote(){
     fetch('https://api.quotable.io/random')
     .then(response => response.json())
     .then(data => {
@@ -11,8 +15,9 @@ function randomQuote(){
         quoteTags.textContent= data.tags;
         quoteAuthor.textContent= `-- ${data.author}`
     })
+    .catch(errorHandler)
 }
 
-
+console.log(x)
 
 genQuoteBtn.addEventListener('click',randomQuote)
