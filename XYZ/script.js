@@ -7,7 +7,7 @@ function errorHandler(error){
     alert("an error occured while processing");
 }
 
-var x = function randomQuote(){
+function randomQuote(){
     fetch('https://api.quotable.io/random')
     .then(response => response.json())
     .then(data => {
@@ -21,6 +21,4 @@ var x = function randomQuote(){
     .catch(errorHandler)
 }
 
-console.log(x)
-
-genQuoteBtn.addEventListener('click', x)
+genQuoteBtn.addEventListener('click', randomQuote)
