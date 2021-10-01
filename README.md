@@ -1,2 +1,2 @@
 # neogcamp
-assignments for the full stack web dev bootcamp
+Practice/experiment/drill-runs
