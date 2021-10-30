@@ -1,4 +1,18 @@
 body{
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.output,tr{
     text-align: center;
     display: block;
+    margin: auto;
+
 }
+
+
+/* #output{
+    margin: auto;
+} */
