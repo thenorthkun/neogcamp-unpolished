@@ -1,4 +1,8 @@
 body{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50% );
     display: block;
     text-align: center;
     align-items: center;
@@ -6,6 +10,7 @@ body{
 }
 
 .output,tr{
+   
     text-align: center;
     display: block;
     margin: auto;
