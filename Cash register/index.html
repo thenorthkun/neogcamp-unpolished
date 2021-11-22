@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Cash regiter</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
     <h1>Cash Register application</h1>
     <p>enter bill amount</p>
@@ -14,39 +16,42 @@
     <br>
     <button id="next-btn">next</button>
     <br>
-    <p>enter cash given</p>
-    <textarea id="cashGiven"></textarea>
-    <!-- <input id="cashGIven"type="number"placeholder="Enter amount here"></input> -->
-    <br>
-    <button id="check-btn">Check</button>
+    <div id="box">
+        <p>enter cash given</p>
+        <textarea id="cashGiven"></textarea>
+        <!-- <input id="cashGIven"type="number"placeholder="Enter amount here"></input> -->
+        <br>
+        <button id="check-btn">Check</button>
 
-    <div id="message"></div>
+        <div id="message"></div>
 
-    <div id="output">output comes here 👇
-        <table>
-            <tr>      
-                <th id ="Noof">No. of Notes</td>
-                <td id="noOfNotes"></td>
-                <td id="noOfNotes"></td>
-                <td id="noOfNotes"></td>
-                <td id="noOfNotes"></td>
-                <td id="noOfNotes"></td>
-                <td id="noOfNotes"></td>
-                <td id="noOfNotes"></td>
+        <div id="output">output comes here 👇
+            <table>
+                <tr>
+                    <th id="Noof">No. of Notes</td>
+                    <td id="noOfNotes"></td>
+                    <td id="noOfNotes"></td>
+                    <td id="noOfNotes"></td>
+                    <td id="noOfNotes"></td>
+                    <td id="noOfNotes"></td>
+                    <td id="noOfNotes"></td>
+                    <td id="noOfNotes"></td>
                 </tr>
                 <tr>
-                <th id="Noof">Notes</td>
-                <td id="amount" >2000</td>
-                <td id="amount">500</td>
-                <td id="amount">100</td>
-                <td id="amount">20</td>
-                <td id="amount">10</td>
-                <td id="amount">5</td>
-                <td id="amount">1</td>
+                    <th id="Noof">Notes</td>
+                    <td id="amount">2000</td>
+                    <td id="amount">500</td>
+                    <td id="amount">100</td>
+                    <td id="amount">20</td>
+                    <td id="amount">10</td>
+                    <td id="amount">5</td>
+                    <td id="amount">1</td>
                 </tr>
-          </table>
+            </table>
         </div>
-        
-    
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
