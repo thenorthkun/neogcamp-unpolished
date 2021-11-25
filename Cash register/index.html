@@ -12,15 +12,15 @@
 <body>
     <h1>Cash Register application</h1>
     <p>enter bill amount</p>
-    <textarea id="billAmount" placeholder="enter here"></textarea>
+    <input id="billAmount" type="number" placeholder="enter here"></input>
     <br>
     <button id="next-btn">next</button>
     <br>
-    <div id="message"></div>
+    
     <div id="box">
         <p>enter cash given</p>
-        <textarea id="cashGiven"></textarea>
-        <!-- <input id="cashGIven"type="number"placeholder="Enter amount here"></input> -->
+        <input type="number" id="cashGiven"></input>
+        
         <br>
         <button id="check-btn">Check</button>
 
@@ -51,6 +51,8 @@
             </table>
         </div>
     </div>
+
+    <div id="message"></div>
 
     <script src="script.js"></script>
 </body>
