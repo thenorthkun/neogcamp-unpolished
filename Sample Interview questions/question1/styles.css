@@ -1,0 +1,11 @@
+body{
+    position: absolute;
+    line-height: 2.0;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50% );
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
