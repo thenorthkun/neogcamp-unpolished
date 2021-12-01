@@ -20,3 +20,4 @@ function decreaseFunction(){
     input.style.fontSize = `${size}px`;
 }
 
+
