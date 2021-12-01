@@ -14,6 +14,7 @@ function increaseFunction(){
     input.style.fontSize = `${size}px`;
 }
 
+
 function decreaseFunction(){
     size = size - 2 //16-2 = 14
     input.style.fontSize = `${size}px`;
