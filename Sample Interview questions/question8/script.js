@@ -13,11 +13,4 @@ button.addEventListener('click', function(){
             output.innerText = "Not logged in"
         }
         }
-    )
-
-    .catch(errorHandler)
-})
-
-function errorHandler(error){
-    output.innerText = error
-}
+    )})
