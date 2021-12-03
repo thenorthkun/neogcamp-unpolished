@@ -8,7 +8,6 @@ button.addEventListener('click', function(){
     let value = inputText.value;
     if(value.length < 10){
         button.disabled = true;
-        output.innerText = 'Error ❌'
     }
     else{
         button.disabled = false;
