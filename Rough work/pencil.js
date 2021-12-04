@@ -1,18 +1,27 @@
-const button = document.querySelector('#callAPI')
+const input = document.querySelector('#input')
+const button = document.querySelector('#check')
 const output = document.querySelector('#output')
 
-var URL = "https://reqres.in/api/users/23"
+button.disabled = true;
+
+input.addEventListener('input', function(){
+    let password = input.value;
+    if(password.length < 10){
+        button.disabled = true;
+    }
+    else{
+        button.disabled = false;
+    }
+})
 
 button.addEventListener('click', function(){
-    fetch(URL)
-
-    .then(response => {
-        if(response.status === 404){
-            output.innerText = 'Page not found'
-        }
-        else if(response.status === 401){
-            output.innerText = 'you are not logged in'
-        }
-    })
-    
+    let password = input.value;
+    if(password.length < 10){
+        button.disabled = true;
+    }
+    else{
+        button.disabled = false;
+        output.innerText = 'success'
+        input.style.color = 'green'
+    }
 })
