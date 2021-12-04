@@ -1,23 +1,21 @@
-const text = document.querySelector('#input')
-const h1Btn = document.querySelector('#h1')
-const h2Btn = document.querySelector('#h2')
-const h3Btn = document.querySelector('#h3')
-
+const text = document.querySelector('#text')
+const redBtn = document.querySelector('#red')
+const greenBtn = document.querySelector('#green')
+const blueBtn = document.querySelector('#blue')
+const output = document.querySelector('#output')
 
 text.addEventListener('input', function(){
     output.innerHTML = text.value;
 })
 
-h1Btn.addEventListener('click', function increase(){
-    output.innerHTML = `<h1>${text.value}</h1>`;
+redBtn.addEventListener('click', function(){
+    output.style.color = 'red';
 })
 
-h2Btn.addEventListener('click', function decrease(){
-    output.innerHTML = `<h2>${text.value}</h2>`;
-
+greenBtn.addEventListener('click', function(){
+    output.style.color = 'green';
 })
 
-h3Btn.addEventListener('click', function decrease(){
-    output.innerHTML = `<h3>${text.value}</h3>`;
-
+blueBtn.addEventListener('click', function(){
+    output.style.color = 'blue';
 })
