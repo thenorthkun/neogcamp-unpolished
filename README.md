@@ -1,2 +1,2 @@
 # neogcamp
-Practice/experiment/drill-runs
+Practice/experiment/concepts/drill-runs
