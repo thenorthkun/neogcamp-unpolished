@@ -1,35 +1,18 @@
-const num1 = document.querySelector('#number1')
-const num2 = document.querySelector('#number2')
-
-const addBtn = document.querySelector('#add')
-const subBtn = document.querySelector('#sub')
-const mulBtn = document.querySelector('#mul')
-const divBtn = document.querySelector('#div')
-
+const input = document.querySelector('#input')
+const incBtn = document.querySelector('#increase')
+const decBtn = document.querySelector('#decrease')
 const output = document.querySelector('#output')
 
+const text = input.value
+var size = 16;
 
-addBtn.addEventListener('click', function addition(){
-    const sum = Number(num1.value) + Number(num2.value);
-    output.innerText = sum;
+input.addEventListener('input', function (){
+    output.innerText = input.value;
     
 })
 
-subBtn.addEventListener('click', function addition(){
-    const sum = Number(num1.value) - Number(num2.value);
-    output.innerText = sum;
-    
-})
+incBtn.addEventListener('click', function incFont(){
+    size = size + 2;
+    output.style.fontSize = `${size}px`
 
-mulBtn.addEventListener('click', function addition(){
-    const sum = Number(num1.value) * Number(num2.value);
-    output.innerText = sum;
-    
 })
-
-divBtn.addEventListener('click', function addition(){
-    const sum = Number(num1.value) % Number(num2.value);
-    output.innerText = sum;
-    
-})
-
